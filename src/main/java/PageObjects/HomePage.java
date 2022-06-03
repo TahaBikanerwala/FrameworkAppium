@@ -11,11 +11,10 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 public class HomePage extends Base{
 	
 	
-	private AndroidDriver driver;
+	// private AndroidDriver driver;
 
 	public HomePage(AndroidDriver driver) {
-		// TODO Auto-generated constructor stub 
-		this.driver=driver;
+		// this.driver=driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 		
 	}
